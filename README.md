@@ -12,6 +12,12 @@
 * It is good practice to create test classes with Test suffix. Some code coverage tools ignore tests if they don’t end with a Test suffix.
 * Execution of test cases should be independent of each other.
 
+#####	Qualities of unit testing
+*	Order independent.
+*	Test should run on all computers.
+*	A test should not take more that a second to finih it execution.
+*	All dependencies should be mocked.
+
 ##### Basic Annotations
 
 * @Test
