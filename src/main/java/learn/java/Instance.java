@@ -11,4 +11,8 @@ public class Instance {
 	public String getHostName() {
 		return hostName;
 	}
+
+	public String getHostShortName() {
+		return hostName;
+	}
 }
