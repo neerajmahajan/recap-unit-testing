@@ -17,7 +17,7 @@ public class Environment {
 	
 	public Host getInstanceHost() {
 		String hostName = instance.getHostName();
-		String hostNameSn = instance.getHostShortName();
+		instance.getHostShortName();
 		Host host = hostFinder.findByName(hostName+"x");
 		host.returnNothing(new Location());
 		host.returnNothing(new Location());
